@@ -1,0 +1,6 @@
+Respondent ID,Age,Date,Country,Is Female
+234,44,2020-04-04,Cyprus,FALSE
+435,40,,Thailand,FALSE
+543,64,2020-04-05,United States,
+231,,2020-04-06,Philippines,TRUE
+234,62,2020-04-06,,TRUE
