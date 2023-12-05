@@ -17,26 +17,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
@@ -84,7 +65,11 @@ div.csl-indent {
   }
 }</script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300&amp;display=swap">
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script><script src="site_libs/viz-1.8.2/viz.js"></script><link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="site_libs/grViz-binding-1.0.10/grViz.js"></script><link href="site_libs/htmltools-fill-0.5.6.1/fill.css" rel="stylesheet">
+<script src="site_libs/bslib-webComponents-js-0.5.1/webComponents.min.js" type="module"></script><script src="site_libs/bslib-tag-require-0.5.1/tag-require.js"></script><script src="site_libs/bslib-card-js-0.5.1/card.min.js"></script><link href="site_libs/bslib-card-styles-0.5.1/card.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap">
 <link rel="stylesheet" href="css/rtl-style.css">
 </head>
 <body class="nav-sidebar floating">
@@ -94,7 +79,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="ناوبری نوار کناری را تغییر دهید" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./import.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">وارد کردن</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./import.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">وارد کردن داده</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="ناوبری نوار کناری را تغییر دهید" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -139,13 +124,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./import.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">وارد کردن</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">وارد کردن داده</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tidy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">مرتب کردن</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">وارد کردن و مرتب کردن داده</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -163,7 +148,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./communicate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">معاشرت کردن</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">بحث کردن</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -206,7 +191,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">اصلاح شده</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2023-10-30</p>
+      <p class="date-modified">2023-12-06</p>
     </div>
   </div>
     
@@ -215,29 +200,38 @@ div.csl-indent {
 
 
 </header><div class="cell">
-<div class="cell-output-display">
 <div id="fig-import-data" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure"><p><img src="https://r4ds.hadley.nz/diagrams/data-science/import.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">شکل&nbsp;1.1: وارد کردن داده <span class="citation" data-cites="r4ds2023"><a href="references.html#ref-r4ds2023" role="doc-biblioref">[1]</a></span></figcaption></figure>
+<figure class="figure"><div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container" data-bslib-card-init="" data-full-screen="false" data-require-bs-caller="card()" data-require-bs-version="5">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto;">
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-bb0b7beb6c4e036d0bfa" style="width:100%;height:338px;"></div>
+<script type="application/json" data-for="htmlwidget-bb0b7beb6c4e036d0bfa">{"x":{"diagram":"digraph roadmap {\n  # General ====================================================================\n  # layout = neato\n  rankdir = RL\n  graph [\n    fontsize = 14\n    fontname = \"Vazirmatn\"\n    overlap = false\n  ]\n  \n  node [\n    fontname = \"Roboto\",\n    shape = ellipse\n    color = none\n  ]\n  \n  edge [\n    fontname = \"Roboto\",\n    arrowhead = vee\n    len = 2\n  ]\n  \n  # Edges ======================================================================\n  ## Step to Step --------------------------------------------------------------\n  node [\n    fillcolor = \"#FFC5C5\"\n    style = filled\n  ]\n  \n  subgraph cluster_program {\n  \n    label = \"برنامه دوره\"\n    rank = \"same\"\n    Import Tidy Transform Visualize Communicate\n  }\n  \n  Import -> Tidy -> Transform -> Visualize -> Communicate\n  Visualize -> Transform\n  \n  ## Step to Applications ------------------------------------------------------\n  node [\n    fontname = \"Roboto\"\n    fillcolor = \"#C5E898\"\n    style = filled\n  ]\n  \n  subgraph cluster_format {\n    label = \"فرمت فایل‌ها\"\n    rank = \"same\"\n    \n    raw [label = \"RAW (csv, tsv, dat, ...)\"]\n    xls [label = \"EXCEL (xls, xlsx, ...)\"]\n    sps [label = \"SPSS (sav, por, ...)\"]\n    sas [label = \"SAS (sas, xpt, ...)\"] \n    sta [label = \"STATA (dta, ...)\"]\n    mat [label = \"MATLAB (mat, ...)\"]\n    sql [label = \"SQL (sqlite, mysql, ...)\"]\n    web [label = \"WEB (html, xml, json, ...)\"]\n  }\n  \n  ## Applications to Packages --------------------------------------------------\n  node [\n    fontname = \"Roboto Mono\"\n    fillcolor = \"#8ACDD7\"\n    style = filled\n    # shape = rectangle\n  ]\n  \n  subgraph cluster_package {\n    label = \"بسته‌ها\"\n    rank = \"same\"\n  \n    bse [label = \"base\"]\n    rdr [label = \"readr\"]\n    dtl [label = \"data.table\"]\n    rxl [label = \"readxl\"]\n    hvn [label = \"haven\"]\n    rmt [label = \"R.matlab\"]\n    dbl [label = \"DBI\"]\n    rvs [label = \"rvest\"]\n  }\n  \n  Import -> {raw, xls, sps, sas, sta, mat, sql, web}\n  \n  raw -> {bse, rdr, dtl}\n  xls -> {rxl}\n  sps -> {hvn}\n  sas -> {hvn}\n  sta -> {hvn}\n  mat -> {rmt}\n  sql -> {dbl}\n  web -> {rvs}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()"><template>Expand</template><span class="bslib-full-screen-enter badge rounded-pill bg-dark"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-arrows-fullscreen " style="height:1em;width:1em;fill:currentColor;" aria-hidden="true" role="img"><path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z"></path></svg></span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+</div>
+<figcaption class="figure-caption">شکل&nbsp;1.1: وارد کردن داده</figcaption></figure>
 </div>
 </div>
-</div>
-<p>انواع مختلف فایل‌های داده را می‌توان در محیط R فراخوانی کرد. بعضی از این فایل‌ها مانند <code>csv</code> نیازی به بسته ندارند اما فایل‌هایی با فرمت‌های خاص مانند <code>xlsx</code> نیاز به فراخوانی بسته برای وارد کردن داده دارند.</p>
-<p>در بسته‌های <a href="https://readr.tidyverse.org/"><code>readr</code></a>, <a href="https://haven.tidyverse.org/"><code>haven</code></a> و <a href="https://readxl.tidyverse.org/"><code>readxl</code></a> توابع زیادی قرار دارد که می‌توان از آنها برای وارد کردن داده‌ها از فایل مختلف استفاده کرد.</p>
-<p>برای ذخیره داده‌ها با فرمت‌های مختلف نیز می‌توان از بسته‌های مشابه استفاده کرد.</p>
+<p>انواع مختلف فایل‌های داده مانند <code>csv</code>, <code>xlsx</code>, <code>sav</code>, <code>sas</code>, <code>xpt</code>, <code>dta</code>, <code>mat</code>, <code>sql</code>, <code>html</code> و … را می‌توان با بسته‌های مختلف وارد محیط R کرد.</p>
 <ul>
 <li><a href="https://r4ds.hadley.nz/data-import">خلاصه‌ای از نحوه‌ی وارد کردن داده</a></li>
 <li><a href="https://r4ds.hadley.nz/import">وارد کردن انواع مختلف داده</a></li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+هشدار
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>حتما خودتان نیز برای یافتن بسته‌های دیگه در اینترنت جستجو کنید و با نحوه استفاده آن‌ها آشنا شوید.</p>
+</div>
+</div>
 
 
-<div id="refs" class="references csl-bib-body" role="list" style="display: none">
-<div id="ref-r4ds2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div>
-<div class="csl-right-inline">Hadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, <em>R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release)</em>, 2nd ed. O’Reilly Media, Inc., 2023. Available at: <a href="https://https://r4ds.hadley.nz/">https://https://r4ds.hadley.nz/</a>
-</div>
-</div>
-</div>
 
 </main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -733,7 +727,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./tidy.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">مرتب کردن</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">وارد کردن و مرتب کردن داده</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

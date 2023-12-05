@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "مصورسازی با R",
     "section": "",
-    "text": "پیش گفتار\nبه همراه این کتاب می‌توانید مهارت‌های مصورسازی داده‌هایتان را با زبان برنامه نویسی R را توسعه دهید. سعی کنید بعد از هر آموزش تمرینات مربوط به آن را انجام دهید. نظرات و پیشنهادات خود را می‌توانید از طریق ایمیل mohsenebrahimy.ir@gmail.com برای بهبود کتاب به نویسنده ارسال کنید تا در هر بروزرسانی اصلاحات صورت گیرد. این نسخه در تاریخ ۱۴۰۲-۸-۸ بروزرسانی شده است.\n\nلینک:\n\nکتاب\nگیت هاب\nدوره\n\n\n\nامیدوارم این کتاب برایتان مفید باشد.\n\n\nمحسن ابراهیمی\n\n\nwww.mohsenebrahimy.ir"
+    "text": "پیش گفتار\nبه همراه این کتاب می‌توانید مهارت‌های مصورسازی داده‌هایتان را با زبان برنامه نویسی R را توسعه دهید. سعی کنید بعد از هر آموزش تمرینات مربوط به آن را انجام دهید. نظرات و پیشنهادات خود را می‌توانید از طریق ایمیل mohsenebrahimy.ir@gmail.com برای بهبود کتاب به نویسنده ارسال کنید تا در هر بروزرسانی اصلاحات صورت گیرد. این نسخه در تاریخ ۱۴۰۲-۹-۱۵ بروزرسانی شده است.\n\nلینک:\n\nکتاب\nگیت هاب\nدوره\n\n\n\nامیدوارم این کتاب برایتان مفید باشد.\n\n\nمحسن ابراهیمی\n\n\nwww.mohsenebrahimy.ir"
   },
   {
     "objectID": "intro.html#کاربرد-مصورسازی-داده",
@@ -21,20 +21,6 @@
     "text": "کلیت دوره\n\n\n\n\nشکل 2: در این دوره، نحوه وارد کردن، مرتب کردن، تبدیل و تجسم داده ها را یاد خواهید گرفت. [2]"
   },
   {
-    "objectID": "intro.html#منابع-اصلی",
-    "href": "intro.html#منابع-اصلی",
-    "title": "مقدمه",
-    "section": "منابع اصلی",
-    "text": "منابع اصلی\nمنابع اصلی این کتابچه در زیر لیست شده است که می‌توانید با الهام گرفتن از مثال‌هایی که در آن‌ها وجود دارد خروجی خود را بهبود ببخشید.\n\n\nR4DS:\n\nنسخه اول: کتاب\n\nنسخه دوم: کتاب\n\n\n\n\nData Visualization: کتاب\n\n\nR Graph Gallery: وبسایت\n\n\nSTHDA: وبسایت\n\n\nBetter Data Visualizations: آمازون\n\n\nThe Big Book of Dashboards: آمازون\n\n\nFederica Fragapane: dribbble\n\n\n\n\n\n\n[1] \nF. J. Anscombe, “Graphs in statistical analysis,” The American Statistician, vol. 27, no. 1, pp. 17–21, 1973, Accessed: October 28, 2023. [Online]. Available at: http://www.jstor.org/stable/2682899\n\n\n\n[2] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "منابع",
-    "section": "",
-    "text": "[1] F.\nJ. Anscombe, “Graphs in statistical analysis,” The\nAmerican Statistician, vol. 27, no. 1, pp. 17–21, 1973, Accessed:\nOctober 28, 2023. [Online]. Available at: http://www.jstor.org/stable/2682899\n\n\n[2] Hadley Wickham Mine Cetinkaya-Rundel and G.\nGrolemund, R for data science: Import, tidy, transform, visualize,\nand model data, 2nd edition (second early release), 2nd ed.\nO’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
-  },
-  {
     "objectID": "intro.html#پیش-نیاز",
     "href": "intro.html#پیش-نیاز",
     "title": "مقدمه",
@@ -42,45 +28,80 @@
     "text": "پیش نیاز\nبرای فهم بهتر این دوره بهتر است دانش کلی از زبان برنامه نویسی R داشته باشید. می‌توانید از دوره‌ای زیر به عنوان پیش نیاز این دوره استفاده کنید.\n\n\nمبانی R:\n\nدوره راز تبدیل شدن به یک برنامه نویس R"
   },
   {
+    "objectID": "intro.html#منابع-اصلی",
+    "href": "intro.html#منابع-اصلی",
+    "title": "مقدمه",
+    "section": "منابع اصلی",
+    "text": "منابع اصلی\nمنابع اصلی این کتابچه در زیر لیست شده است که می‌توانید با الهام گرفتن از مثال‌هایی که در آن‌ها وجود دارد خروجی خود را بهبود ببخشید.\n\n\nR4DS:\n\nنسخه اول: کتاب\n\nنسخه دوم: کتاب\n\n\n\n\nData Visualization: کتاب\n\n\nR Graph Gallery: وبسایت\n\n\nSTHDA: وبسایت\n\n\nBetter Data Visualizations: آمازون\n\n\nThe Big Book of Dashboards: آمازون\n\n\nFederica Fragapane: dribbble\n\n\n\n\n\n\n[1] \nF. J. Anscombe, “Graphs in statistical analysis,” The American Statistician, vol. 27, no. 1, pp. 17–21, 1973, Accessed: October 28, 2023. [Online]. Available at: http://www.jstor.org/stable/2682899\n\n\n\n[2] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
+  },
+  {
     "objectID": "import.html",
     "href": "import.html",
     "title": "\n1  وارد کردن داده\n",
     "section": "",
-    "text": "شکل 1.1: وارد کردن داده [1]\n\n\n\nانواع مختلف فایل‌های داده را می‌توان در محیط R فراخوانی کرد. بعضی از این فایل‌ها مانند csv نیازی به بسته ندارند اما فایل‌هایی با فرمت‌های خاص مانند xlsx نیاز به فراخوانی بسته برای وارد کردن داده دارند.\nدر بسته‌های readr, haven و readxl توابع زیادی قرار دارد که می‌توان از آنها برای وارد کردن داده‌ها از فایل مختلف استفاده کرد.\nبرای ذخیره داده‌ها با فرمت‌های مختلف نیز می‌توان از بسته‌های مشابه استفاده کرد.\n\nخلاصه‌ای از نحوه‌ی وارد کردن داده\nوارد کردن انواع مختلف داده\n\n\n\n\n\n[1] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
-  },
-  {
-    "objectID": "import.html#نحوه-وارد-کردن-داده",
-    "href": "import.html#نحوه-وارد-کردن-داده",
-    "title": "\n1  وارد کردن\n",
-    "section": "\n1.1 نحوه وارد کردن داده",
-    "text": "1.1 نحوه وارد کردن داده\nقبل از هر کاری بهتر است بسته tidyverse فراخوانی کنیم.\nlibrary(tidyverse)\nداده‌ای که می‌خواهیم وارد کنیم در جدول زیر آمده است.\n\n\n\n\nRespondent ID\nAge\nDate\nCountry\nIs Female\n\n\n\n234\n44\n2020-04-04\nCyprus\nFALSE\n\n\n435\n40\nNA\nThailand\nFALSE\n\n\n543\n64\n2020-04-05\nUnited States\nNA\n\n\n231\nNA\n2020-04-06\nPhilippines\nTRUE\n\n\n234\n62\n2020-04-06\nNA\nTRUE\n\n\n\n\n\n\n\nوارد کردن داده از فایل:\ndf &lt;- read_csv(\"data/survey.csv\")\nRows: 5 Columns: 5\n── Column specification ───────────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (1): Country\ndbl  (2): Respondent ID, Age\nlgl  (1): Is Female\ndate (1): Date\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nوارد کردن داده از لینک:\nurl = \"https://raw.githubusercontent.com/mohsenebrahimyir/viz-r/master/data/survey.csv\"\ndf &lt;- read_csv(url)\n\n\nوارد کردن داده از متن:\ntxt = \"\nRespondent ID,Age,Date,Country,Is Female\n234,44,2020-04-04,Cyprus,FALSE\n435,40,,Thailand,FALSE\n543,64,2020-04-05,United States,\n231,,2020-04-06,Philippines,TRUE\n224,62,2020-04-06,,TRUE\n\"\ndf &lt;- read_csv(txt)\n\n\nنمایش داده شده:\ndf\n# A tibble: 5 × 5\n`Respondent ID`     Age Date       Country       `Is Female`\n            &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;     &lt;chr&gt;         &lt;lgl&gt;      \n1             234    44 2020-04-04 Cyprus        FALSE      \n2             435    40 NA         Thailand      FALSE      \n3             543    64 2020-04-05 United States NA         \n4             231    NA 2020-04-06 Philippines   TRUE       \n5             234    62 2020-04-06 NA            TRUE       \n\n\nذخیره داده در فایل csv:\nwrite_csv(df, \"data/survey.csv\")"
+    "text": "شکل 1.1: وارد کردن داده\n\n\nانواع مختلف فایل‌های داده مانند csv, xlsx, sav, sas, xpt, dta, mat, sql, html و … را می‌توان با بسته‌های مختلف وارد محیط R کرد.\n\nخلاصه‌ای از نحوه‌ی وارد کردن داده\nوارد کردن انواع مختلف داده\n\n\n\n\n\n\n\nهشدار\n\n\n\nحتما خودتان نیز برای یافتن بسته‌های دیگه در اینترنت جستجو کنید و با نحوه استفاده آن‌ها آشنا شوید."
   },
   {
     "objectID": "tidy.html",
     "href": "tidy.html",
     "title": "\n2  مرتب کردن داده\n",
     "section": "",
-    "text": "شکل 2.1: مرتب کردن داده [1]\n\n\n\nمهمترین، وقت گیرترین و کسل کننده‌ترین بخش کار با داده مرتب کردن و تمیز کردن داده‌هاست. ابزار‌های متنوعی وجود دارد که بتوانید داده‌های خود را مرتب کنید.\nمنظور از مرتب کردن داده این است که نام و نوع صحیح برای ستون‌ها در نظر بگیریم و شکل داده را برای مصورسازی و مدلسازی آماده کنیم.\nابزارهایی که در مجموعه tidyverse جمع آوری شده‌اند کار با داده را آسان می‌کنند.\n\nخلاصه‌ای از مرتب کردن داده\n\n\n\n\n\n[1] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
+    "text": "مهمترین، وقت گیرترین و کسل کننده‌ترین بخش کار با داده مرتب کردن و تمیز کردن داده‌هاست. ابزار‌های متنوعی وجود دارد که بتوانید داده‌های خود را مرتب کنید. منظور از مرتب کردن داده این است که نام و نوع صحیح برای ستون‌ها در نظر بگیریم.\nابزارهایی که در مجموعه tidyverse جمع آوری شده‌اند کار با داده را آسان می‌کنند.\n\nخلاصه‌ای از مرتب کردن داده"
   },
   {
     "objectID": "transform.html",
     "href": "transform.html",
     "title": "\n3  تبدیل کردن\n",
     "section": "",
-    "text": "شکل 3.1: تبدیل داده [1]\n\n\n\n\n\n\n\n[1] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
+    "text": "در این مرحله بعد از مرتب کردن داده‌ها باید قالب داده را به نحوی تغییر دهیم تا برای مصورسازی و مدلسازی مناسب باشد."
   },
   {
     "objectID": "visualize.html",
     "href": "visualize.html",
     "title": "\n4  مصورسازی\n",
     "section": "",
-    "text": "شکل 4.1: تجسم داده [1]\n\n\n\n\n\n\n\n[1] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
+    "text": "5 type of chart"
+  },
+  {
+    "objectID": "visualize.html#d",
+    "href": "visualize.html#d",
+    "title": "\n4  مصورسازی\n",
+    "section": "\n5.1 1D",
+    "text": "5.1 1D\n\npoint\njitter\nboxplot\nviolin\ntext"
+  },
+  {
+    "objectID": "visualize.html#d-1",
+    "href": "visualize.html#d-1",
+    "title": "\n4  مصورسازی\n",
+    "section": "\n5.2 2D",
+    "text": "5.2 2D\n\nhist\ndensity\nmap"
+  },
+  {
+    "objectID": "visualize.html#d-2",
+    "href": "visualize.html#d-2",
+    "title": "\n4  مصورسازی\n",
+    "section": "\n5.3 3d",
+    "text": "5.3 3d\n\nfacet\ngg3d\nplotly\nreshader"
+  },
+  {
+    "objectID": "visualize.html#multiplot",
+    "href": "visualize.html#multiplot",
+    "title": "\n4  مصورسازی\n",
+    "section": "\n5.4 multiplot",
+    "text": "5.4 multiplot\n\npatchwork"
   },
   {
     "objectID": "communicate.html",
     "href": "communicate.html",
     "title": "\n5  بحث کردن\n",
     "section": "",
-    "text": "شکل 5.1: بحث کردن داده [1]\n\n\n\nبرای معاشرت و بحث بر روی خروجی‌ها می‌توان از بسته‌های Rmarkdown و quarto استفاده کرد.\n\nخلاصه‌ای از بسته Rmarkdown\nخلاصه‌ای از بسته Quarto\n\n\n\n\n\n[1] \nHadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release), 2nd ed. O’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
+    "text": "برای معاشرت و بحث بر روی خروجی‌ها می‌توان از بسته‌های Rmarkdown و quarto استفاده کرد.\n\nخلاصه‌ای از بسته Rmarkdown\nخلاصه‌ای از بسته Quarto"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "منابع",
+    "section": "",
+    "text": "[1] F.\nJ. Anscombe, “Graphs in statistical analysis,” The\nAmerican Statistician, vol. 27, no. 1, pp. 17–21, 1973, Accessed:\nOctober 28, 2023. [Online]. Available at: http://www.jstor.org/stable/2682899\n\n\n[2] Hadley Wickham Mine Cetinkaya-Rundel and G.\nGrolemund, R for data science: Import, tidy, transform, visualize,\nand model data, 2nd edition (second early release), 2nd ed.\nO’Reilly Media, Inc., 2023. Available at: https://https://r4ds.hadley.nz/"
   }
 ]

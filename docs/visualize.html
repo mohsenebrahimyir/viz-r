@@ -17,26 +17,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
@@ -84,7 +65,8 @@ div.csl-indent {
   }
 }</script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap">
 <link rel="stylesheet" href="css/rtl-style.css">
 </head>
 <body class="nav-sidebar floating">
@@ -139,13 +121,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./import.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">وارد کردن</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">وارد کردن داده</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tidy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">مرتب کردن</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">وارد کردن و مرتب کردن داده</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -163,7 +145,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./communicate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">معاشرت کردن</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">بحث کردن</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -188,7 +170,20 @@ div.csl-indent {
 </nav><div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">فهرست مطالب</h2>
+   
+  <ul>
+<li>
+<a href="#type-of-chart" id="toc-type-of-chart" class="nav-link active" data-scroll-target="#type-of-chart"><span class="header-section-number">5</span> type of chart</a>
+  <ul class="collapse">
+<li><a href="#dimention" id="toc-dimention" class="nav-link" data-scroll-target="#dimention"><span class="header-section-number">5.0.1</span> Dimention</a></li>
+  <li><a href="#d" id="toc-d" class="nav-link" data-scroll-target="#d"><span class="header-section-number">5.1</span> 1D</a></li>
+  <li><a href="#d-1" id="toc-d-1" class="nav-link" data-scroll-target="#d-1"><span class="header-section-number">5.2</span> 2D</a></li>
+  <li><a href="#d-2" id="toc-d-2" class="nav-link" data-scroll-target="#d-2"><span class="header-section-number">5.3</span> 3d</a></li>
+  <li><a href="#multiplot" id="toc-multiplot" class="nav-link" data-scroll-target="#multiplot"><span class="header-section-number">5.4</span> multiplot</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
@@ -206,7 +201,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">اصلاح شده</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2023-10-30</p>
+      <p class="date-modified">2023-12-06</p>
     </div>
   </div>
     
@@ -214,25 +209,66 @@ div.csl-indent {
   
 
 
-</header><div class="cell">
-<div class="cell-output-display">
-<div id="fig-visualize-data" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure"><p><img src="https://r4ds.hadley.nz/diagrams/data-science/visualize.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">شکل&nbsp;4.1: تجسم داده <span class="citation" data-cites="r4ds2023"><a href="references.html#ref-r4ds2023" role="doc-biblioref">[1]</a></span></figcaption></figure>
-</div>
-</div>
-</div>
+</header><section id="type-of-chart" class="level1" data-number="5"><h1 data-number="5">
+<span class="header-section-number">5</span> type of chart</h1>
+<section id="dimention" class="level3" data-number="5.0.1"><h3 data-number="5.0.1" class="anchored" data-anchor-id="dimention">
+<span class="header-section-number">5.0.1</span> Dimention</h3>
+<ul>
+<li>x, y, z</li>
+<li>line</li>
+<li>color
+<ul>
+<li>color</li>
+<li>fill</li>
+<li>contineus</li>
+<li>descrite</li>
+</ul>
+</li>
+<li>size</li>
+<li>shape</li>
+<li>alpha
+<ul>
+<li>0-1</li>
+</ul>
+</li>
+<li>angle</li>
+<li>font
+<ul>
+<li>underline</li>
+<li>bold</li>
+<li>italic</li>
+<li>family</li>
+</ul>
+</li>
+</ul></section><section id="d" class="level2" data-number="5.1"><h2 data-number="5.1" class="anchored" data-anchor-id="d">
+<span class="header-section-number">5.1</span> 1D</h2>
+<ul>
+<li>point</li>
+<li>jitter</li>
+<li>boxplot</li>
+<li>violin</li>
+<li>text</li>
+</ul></section><section id="d-1" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="d-1">
+<span class="header-section-number">5.2</span> 2D</h2>
+<ul>
+<li>hist</li>
+<li>density</li>
+<li>map</li>
+</ul></section><section id="d-2" class="level2" data-number="5.3"><h2 data-number="5.3" class="anchored" data-anchor-id="d-2">
+<span class="header-section-number">5.3</span> 3d</h2>
+<ul>
+<li>facet</li>
+<li>gg3d</li>
+<li>plotly</li>
+<li>reshader</li>
+</ul></section><section id="multiplot" class="level2" data-number="5.4"><h2 data-number="5.4" class="anchored" data-anchor-id="multiplot">
+<span class="header-section-number">5.4</span> multiplot</h2>
+<ul>
+<li>patchwork</li>
+</ul>
 
 
-<div id="refs" class="references csl-bib-body" role="list" style="display: none">
-<div id="ref-r4ds2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div>
-<div class="csl-right-inline">Hadley Wickham Mine Cetinkaya-Rundel and G. Grolemund, <em>R for data science: Import, tidy, transform, visualize, and model data, 2nd edition (second early release)</em>, 2nd ed. O’Reilly Media, Inc., 2023. Available at: <a href="https://https://r4ds.hadley.nz/">https://https://r4ds.hadley.nz/</a>
-</div>
-</div>
-</div>
-
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -726,7 +762,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./communicate.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">معاشرت کردن</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">بحث کردن</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

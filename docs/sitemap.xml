@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/index.html</loc>
-    <lastmod>2023-10-30T06:59:55.943Z</lastmod>
+    <lastmod>2023-12-05T22:05:12.685Z</lastmod>
   </url>
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/intro.html</loc>
-    <lastmod>2023-10-30T16:13:54.860Z</lastmod>
+    <lastmod>2023-12-05T20:08:49.668Z</lastmod>
   </url>
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/import.html</loc>
-    <lastmod>2023-10-30T12:59:53.227Z</lastmod>
+    <lastmod>2023-12-05T21:58:47.046Z</lastmod>
   </url>
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/tidy.html</loc>
-    <lastmod>2023-10-30T12:59:58.090Z</lastmod>
+    <lastmod>2023-12-05T22:05:35.825Z</lastmod>
   </url>
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/transform.html</loc>
-    <lastmod>2023-10-30T08:53:35.582Z</lastmod>
+    <lastmod>2023-12-05T22:04:23.593Z</lastmod>
   </url>
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/visualize.html</loc>
-    <lastmod>2023-10-30T08:54:38.489Z</lastmod>
+    <lastmod>2023-12-05T22:03:51.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mohsenebrahimyir.github.io/viz-r/communicate.html</loc>
+    <lastmod>2023-12-05T22:03:26.961Z</lastmod>
   </url>
   <url>
     <loc>https://mohsenebrahimyir.github.io/viz-r/references.html</loc>
     <lastmod>2023-08-28T17:32:56.180Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mohsenebrahimyir.github.io/viz-r/communicate.html</loc>
-    <lastmod>2023-10-30T09:42:31.582Z</lastmod>
   </url>
 </urlset>
